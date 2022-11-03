@@ -15,7 +15,7 @@ function FeedbackList ({ feedback,handleDelete }) {
       key={item.id}
       initial={{ opacity: 0}}
       animate={{ opacity: 1}}
-      transition={{ delay: 0.7, duration:2.0}}
+      transition={{ delay: 0.4, duration:1.2}}
       exit={{ opacity: 0}}
       >
      <FeedbackItem key={item.id} item={item} 
